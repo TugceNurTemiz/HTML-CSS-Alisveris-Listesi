@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Alışveriş Listesi</title>
+    <link href="ödev5.css" rel="stylesheet" type="text/css">
+    <script src="ödev5.js"></script>
+</head>
+<body>
+    <div class="sayfa">
+        <div class="baslik">
+            <h1>Alışveriş Listesi</h1>
+        </div>
+        <div class="orta">
+            <img class="resim1" src="resim1.png" width="300" height="300">
+            <img class="resim2" src="resim2.png" width="300" height="300">
+            <div class="baslik2">
+                <h2>Bugün Alınacaklar</h2>
+            </div>
+            <div class="arama">
+                <input type="text" id="s-input" placeholder="Ne alacaksın?">
+                <input type="button" value="Al" id="button1" onclick="listeyeEkle();">
+                <input type="button" value="Listeyi Temizle"  id="button2" onclick="listeyiTemizle();">
+             </div>
+            <div class="alinacaklar">
+                <ul id="liste">
+                    <!--Liste-->
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
